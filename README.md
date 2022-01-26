@@ -1,12 +1,12 @@
-# Datalonya-Student-Houses-Simulator
+### Datalonya-Student-Houses-Simulator
 This is a school project from Data Structures and Algorithms course where simulating the distribution of students to houses by sticking some restrictions. Not any complex data structures or algorithms are applied on this project just some arraylist structure is used. This is more like a warm-up project to course.
 
 **Following Parts are project descriptions that are written by assistants of the course CmpE250 (Data Structures and Algorithms) in Bogazici University**
-**1 Introduction** \n
+## 1 Introduction
 You are going to be implementing a Java program for simulating the
 distribution of student houses. You are going to be running this simulation
 by using the Java Collections Framework.
-**2 Details of the Project**
+## 2 Details of the Project
 The University of Datalonya offers houses for the students. All houses
 are for one student only. But they can be in various conditions: old, new,
 needs renovation, broken oven, broken shower, new kitchen, new bed etc.
@@ -28,8 +28,8 @@ of your choice and simulate the allocations until all students in the list
 graduate. In your simulation, check for matching houses and students at
 every new semester. The output of your simulation is the list of students
 who cannot stay at any house.
-**3 Input/Output Format**
-**3.1 Input Format**
+## 3 Input/Output Format
+# 3.1 Input Format
 The input will be given as a file argument. There are two types of input
 lines: house lines and student lines. The input lines will be in mixed order.
 You can assume that the input file is error free. You don’t have check for
@@ -61,13 +61,13 @@ their id order. For example if there are two houses with ids 1 and 3 that
 are available at the moment, first the house with id 1 is allocated if possible.
 For students, if there are two students with ids 123 and 126 whose rating
 criterion holds for a house, the student with id 123 gets the house.
-**3.2 Output Format**
+# 3.2 Output Format
 Your program should end when the waiting student list is empty. The
 output of your program is the list of students that couldn’t stay at any of
 the houses. You should create a .txt file and print one student name at a
 line. The output student list must be in ascending order of student id but
 only names will be printed in output file.
-**4 Examples**
+## 4 Examples
 For the input data:
 h 1 0 8
 s 10 Ali 3 9
