@@ -68,16 +68,16 @@ the houses. You should create a .txt file and print one student name at a
 line. The output student list must be in ascending order of student id but
 only names will be printed in output file.
 ## 4 Examples
-For the input data:
-h 1 0 8
-s 10 Ali 3 9
-h 2 0 4
-h 3 0 7
-s 11 Melis 3 9
-s 12 Ayse 5 4
-h 4 6 9
-s 13 Selim 5 3
-h 5 5 5
-The correct result is:
-Ali
-Melis
+For the input data:  
+h 1 0 8  
+s 10 Ali 3 9  
+h 2 0 4  
+h 3 0 7  
+s 11 Melis 3 9  
+s 12 Ayse 5 4  
+h 4 6 9  
+s 13 Selim 5 3  
+h 5 5 5  
+The correct result is:  
+Ali  
+Melis  
